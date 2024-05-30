@@ -1,0 +1,243 @@
+.navbar{
+    background-color: rgb(59, 102, 136);
+    height: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(91, 212, 172);
+    margin: 14px
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px 14px;
+}
+
+.searchbar {
+    background-color: rgb(172, 183, 193);
+    height: 40px;
+    width: 250px;
+    position: absolute;
+    top: 14.5px;
+    right: 40px;
+}
+
+input {
+    background-color: transparent;
+    height: 40px;
+    width: 240px;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    border-style: none;
+    outline-width: 0px;
+}
+
+#root {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    column-gap: 0px;
+}
+
+.box {
+    border: 2px solid black;
+    padding: 14.5px;
+    text-align: center;
+    height: 40px;
+    font-size: 6.5px;
+}
+
+.boxi {
+    border: 2px solid black;
+    height: 500px;
+    background-image: url(Imagin/1200px-Urizen_and_Ahania2.png);
+    background-size: 1514px;
+
+}
+
+.boxi p {
+    text-align: center;
+    font-size: 40px;
+    border: 2px solid rgb(56, 70, 69);
+}
+
+img.Bird {
+    height: 215px;
+    position: absolute;
+    left: 7px;
+    top: 4rem;
+}
+
+img.Panther {
+    height: 240px;
+    position: absolute;
+    right: 7rem;
+    top: 4rem;
+}
+
+.poisontreed {
+   
+    background-color: rgb(44, 44, 83);
+    text-align: center;
+    align-items: center;
+}
+
+.poisontree {
+    flex-direction: column;
+    display: flexbox;
+    text-align: center;
+    width: 240px;
+}
+
+.poisontreea {
+    border: 2px solid black;
+    background-color: aliceblue;
+    display: flex;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.poisontreep {
+    width: 140px;
+    text-align: left;
+    background-color: rgb(207, 207, 255);
+    height: max-content;
+    border: 2px solid black;
+    margin-left: 40px;
+    padding: 14px;
+}
+
+.poisontreedi {
+    height: min-content;
+    border: 2px solid black;
+    background-color: rgb(207, 207, 255);
+    margin-left: 5rem;
+    display: inline-block;
+}
+
+.poisontreeh {
+    border: 2px solid black;
+    background-color: aliceblue;
+    display: flex;
+    text-align: center ;
+    margin-left: 540px;
+}
+
+.poisontreem {
+
+    display: flex;
+}
+
+.poisontreemp {
+    display: flex;
+}
+
+.poisontreeg {
+    width: 400px;
+    height: 645px;
+}
+
+.vv {
+    
+    display: flexbox;
+    flex-direction: column;
+    margin-left: 45px;
+    height: min-content;
+    border: 2px solid black;
+    background-color: aliceblue;
+}
+
+.soi {
+    background-color: whitesmoke;
+    width: 240px;
+}
+
+.soe {
+    background-color: whitesmoke;
+    width: 240px;
+}
+
+.ps {
+    background-color: whitesmoke
+    
+}
+
+.pb {
+    background-color: whitesmoke;
+}
+
+.a {
+    background-color: whitesmoke;
+    display: block;
+    width: 240px;
+    margin-left: 604px;
+    padding: 14px;
+}
+
+.newrow {
+    background-color: whitesmoke;
+    grid-row-start: 2;
+}
+
+.u {
+    background-color: whitesmoke;
+    display: block;
+    width: 240px;
+    margin-left: 604px;
+    padding: 14px;
+}
+
+.contain {
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px 240px;
+    row-gap: 40px;
+    column-gap: 40px;
+
+}
+
+.griffo {
+    position: relative;
+}
+
+#character-container {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+}
+
+#character {
+    width: 100%;
+    height: 100%;
+}
+
+#character-containerr {
+    position: fixed;
+    width: 114px;
+    height: 114px;
+}
+
+#characterr {
+    width: 114%;
+    height: 114%;
+}
+
+.Baghee {
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 214px;
+}
+
+.Ah {
+    height: 42px;
+    background-color: rgb(70, 99, 174);
+}
+
+.Ap {
+    font-size: medium;
+}
+
+.st {
+    height: 42px;
+    background-color: rgb(70, 99, 174);;
+}
