@@ -1,7 +1,12 @@
 .navbar{
     background-color: rgb(59, 102, 136);
     height: 40px;
-    max-width: 100%;
+    width: 100%;
+}
+
+.body {
+    margin: 0;
+    position: fixed;
 }
 
 a {
@@ -38,7 +43,7 @@ input {
 #root {
     display: grid;
     grid-template-columns: repeat(4, 2fr);
-    max-width: 100%;
+    width: 100%;
     column-gap: 0px;
 }
 
@@ -48,6 +53,7 @@ input {
     text-align: center;
     height: 40px;
     font-size: 6.5px;
+    max-width: 100%;
 }
 
 .boxi {
